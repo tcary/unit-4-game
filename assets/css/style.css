@@ -9,9 +9,11 @@ background-image: url("https://bashooka.com/wp-content/uploads/2018/04/scg-canva
 background-size: 100%;
 }
 .crystal-image {
-    width: 70px;
+    width: 63px;
     height: 70px;
-    margin-right: 10px;
+    margin: 10px 3px;
+    padding: 2%;
+    background-color: #fff;
     
 }
 h1 {
@@ -29,22 +31,15 @@ header {
     display: block;
     float: left;
     background-color: rgb(81, 107, 155);
-    margin: 3% 0;
+    margin: 3% 50% 3% 0;
     padding: 0 3%;
+    color: rgb(192, 208, 243);
+    font-size: 20px;
 }
-#number-to-guess {
-    
-}
-#your-score {
-    
-}
-#wins {
-    
-}
-#losses {
-    
-}
-.left {
-    display: block;
+.guess {
+    background-color: rgb(81, 107, 155);
+    font-size: 27px;
+    color: rgb(192, 208, 243);
+    padding: 2% 8%;
     float: left;
 }
