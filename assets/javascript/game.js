@@ -96,6 +96,8 @@ function isWinner() {
 
 }
 function gameReset() {
+    $(".crystals").empty();
+    startGame();
     counter = 0;
     $("#your-score").text(counter)
 }
